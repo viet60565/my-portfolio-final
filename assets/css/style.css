@@ -17,12 +17,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #09b2e1;
   font-family: "Poppins", sans-serif;
 }
 
 *::selection {
-  background: #2b3dda;
+  background: #09ace7;
   color: #fff;
 }
 
@@ -34,10 +34,10 @@ html::-webkit-scrollbar {
   width: 0.8rem;
 }
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: rgb(226, 220, 228);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #0b6ff2;
 }
 
 /* pre loader start */
@@ -96,7 +96,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #0595fc;
 }
 header .navbar ul {
   list-style: none;
@@ -215,11 +215,11 @@ header .navbar ul li a:hover {
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(9, 88, 192, 0.3);
   cursor: pointer;
 }
 .home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(6, 116, 190, 0.5);
 }
 .home .content h2 {
   font-size: 5rem;
@@ -364,7 +364,7 @@ header .navbar ul li a:hover {
   width: 30rem;
   height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 10px rgba(33, 34, 35, 0.6);
   mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
@@ -377,12 +377,12 @@ header .navbar ul li a:hover {
   padding: 3rem;
 }
 .about .row .content h3 {
-  color: rgb(27, 27, 27);
+  color: rgb(37, 41, 43);
   font-size: 2.5rem;
 }
 .about .row .content .tag {
   font-size: 1.4rem;
-  color: #020133;
+  color: #0c6cc0;
   font-weight: 600;
   margin-top: 1rem;
 }
@@ -404,7 +404,7 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 .about .row .content .box-container .box p span {
-  color: #011aff;
+  color: #088ad1;
 }
 .resumebtn {
   margin-top: 6rem;
@@ -535,7 +535,7 @@ header .navbar ul li a:hover {
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 50vh;
 }
 .education .qoute {
   font-size: 1.5rem;
